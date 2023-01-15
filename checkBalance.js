@@ -38,7 +38,7 @@ do {
         await page.waitForSelector('.ma-auto > .balance-result > .container > .grey--text > .font-weight-bold')
         let element = await page.$('.ma-auto > .balance-result > .container > .grey--text > .font-weight-bold')
         const value = await page.evaluate(el => el.textContent, element)
-        console.log(`Balance: ${value}`)
+        console.log(`${card} Balance: ${value}`)
         } catch (e) {
             await browser.close()
             console.log('Invalid Card')

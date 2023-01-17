@@ -44,9 +44,7 @@ const getDetail = (link) => new Promise ((resolve, reject) => {
 });
 
 (async () => {
-    const link = readlineSync.question('Input link for scrap: ')
-    //https://egift.activationspot.com/egift?tid=6G42PXDX1LPHWSJ86J2XMJ9BJW&eid=64YH6DNDPX8G6HZJTTK4ZCRN10
-
+    const link = readlineSync.question('Input link for scrap ex. https://egift.activationspot.com/egift?xxx : ')
     const balance = await getDetail(link)
     console.log(balance)
     fs.appendFile("card.txt",balance,function (err) {

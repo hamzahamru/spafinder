@@ -8,7 +8,7 @@ How to use :
 Note :
 
 - Don't forget create file with name card.txt and field with your card
-- Exp cardNumber|cvvCard|dateExp
+- format number|cvv|date
 - This 100% free
 - DON'T USE FOR ILEGAL ( I CREATE THIS FOR EDUCATION ONLY).
 

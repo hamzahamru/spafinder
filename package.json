@@ -1,5 +1,5 @@
 {
-  "name": "spafinder-balance",
+  "name": "@spafinder/spafinder-balance",
   "version": "1.0.0",
   "description": "",
   "main": "checkBalance.js",
